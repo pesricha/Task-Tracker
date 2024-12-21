@@ -18,6 +18,11 @@ To install Task-Tracker, follow these steps:
     cd Task-Tracker
     ```
 
+3. Install requirements.txt
+    ```sh
+    pip install -r requirements.txt
+    ```
+
 ## Adding a new task
 ```sh
 ./task_cli add "Buy groceries"
