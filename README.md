@@ -20,32 +20,32 @@ To install Task-Tracker, follow these steps:
 
 ## Adding a new task
 ```sh
-task-cli add "Buy groceries"
+./task_cli add "Buy groceries"
 # Output: Task added successfully (ID: 1)
 ```
 
 ## Updating and deleting tasks
 ```sh
-task-cli update 1 "Buy groceries and cook dinner"
-task-cli delete 1
+./task-cli update 1 "Buy groceries and cook dinner"
+./task-cli delete 1
 ```
 
 ## Marking a task as in progress or done
 ```sh
-task-cli mark-in-progress 1
-task-cli mark-done 1
+./task-cli mark-in-progress 1
+./task-cli mark-done 1
 ```
 
 ## Listing all tasks
 ```sh
-task-cli list
+./task-cli list
 ```
 
 ## Listing tasks by status
 ```sh
-task-cli list done
-task-cli list todo
-task-cli list in-progress
+./task-cli list done
+./task_cli list todo
+./task_cli list in-progress
 ```
 
 Sample solution for the [task-tracker](https://roadmap.sh/projects/task-tracker) challenge from [roadmap.sh](https://roadmap.sh/).
